@@ -37,7 +37,7 @@ console.log("Pin type is : ->",typeOfPin);
  console.log("........................(3)Boolean........................");
  
 var isSoftwareEngineer=false;
-console.log( "Is Software Engineer",isSoftwareEngineer );
+console.log( "Is Software Engineer:",isSoftwareEngineer );
 var typeOf= typeof isSoftwareEngineer;
 console.log("Type of variable is: -> ", typeOf);
 
