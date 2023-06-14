@@ -81,4 +81,40 @@ console.log("A:",A,"B:",B,);
 
 console.log("----------------------------------------------");
 console.log("(5)write a FE whichcan problem the below steps for string JS the most populor language of internet-->>");
+console.log("A)find the total character available in the string:");
+var greet ="JS the most populor language of internet";
+var myStringLenghth=greet.length;
+console.log(myStringLenghth);
+
+console.log("B)find character at index 7");
+var index= greet.charAt(7);;
+console.log(index);
+
+console.log("C)find character at index 11");
+var index7= greet.charAt(11);;
+console.log(index7);
+
+console.log("D)find  the last character at using lenght");
+var lastCharacter= greet.charAt(greet.length-1);
+console.log(lastCharacter);
+
+console.log("E)find  the very first character ");
+var firstCharacter= greet.charAt(1);
+console.log(firstCharacter);
+
+console.log("F)find the total number of words of the string and calculate squre of");
+var word= greet.split(" ");
+console.log(word.length);
+console.log("calculate squre of word lenght : ",  word.length*word.length);
+
+
+
+
+
+
+
+
+
+
+
 
